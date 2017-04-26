@@ -1,0 +1,161 @@
+﻿* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+    color: #2d3c49;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: Lato, sans-serif;
+  color: #747704;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 960px;
+  width: 100%;
+}
+
+footer{
+    background: url("../images/S3Acatapault.JPG");
+    background-image: url("../images/S3Acatapault.JPG");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #0077B0;
+    width: 100%;
+    text-align: center;
+    margin-top: 35px;
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color: darkgray;
+}
+
+h1 {
+    text-shadow: 2px 2px 8px #747704;
+}
+
+h4 {
+    text-shadow: 1px 1px 4px #747704;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.container {
+    max-width: 960px;
+    background-color: rgba(210, 231, 241, 0.15);
+    padding: 0;
+}
+
+.content {
+    max-width: 100%;
+}
+
+
+.follow-us {
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.follow-us ul { 
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.follow-us ul {
+    list-style: none;
+}
+
+.follow-us a {
+    text-decoration: none;
+}
+
+.follow-us > ul > li {
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;
+}
+
+.follow-us li a {
+    border: 2px solid #ccc;
+    display: block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-image: url(../images/sprite_social.png);
+    background-repeat: no-repeat;
+}
+
+.follow-us li a, .follow-us li.soc-facebook a {
+    background-position: 0 0;
+}
+
+.follow-us li.soc-twitter a {
+    background-position: -44px 0;
+}
+
+.follow-us li.soc-pinterest a {
+    background-position: -210px 0;
+}
+
+.follow-us li.soc-linkedin a {
+    background-position: -83px 0;
+}
+
+.splashScreen img {
+    margin-top: -1px;
+    width: 100%;
+}
+    @media (max-width: 600px) {
+      .splashScreen {
+        display: none;
+      }
+    }
+
+.toprow {
+    background: url("../images/S3Acatapault.JPG");
+    background-image: url("../images/S3Acatapault.JPG");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgba(0, 119, 176, .2);
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: darkgray;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    display: flex;
+}
+
+.title-logo {
+    background-image: url(../images/ATT_Sprite_Retina_v1.png);
+    background-position: -4px -4px;
+    background-size: 400px 286px;
+    display: block;
+    height: 34px;
+    margin: 20px 5px 0;
+    overflow: hidden;
+    padding: 0;
+    text-indent: -999em;
+    width: 34px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.validCSS {
+    border:0;
+    width:88px;
+    height:31px
+}
