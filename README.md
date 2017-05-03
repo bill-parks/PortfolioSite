@@ -1,2 +1,2 @@
 # PortfolioSite
-<a href="./PortfolioProject/">Enter</a>
+<a href="./portfolioProject/">Enter</a>
